@@ -203,7 +203,7 @@ nav {
   display: flex;
   margin-top: var(--espacio);
   flex-direction: column;
-  width: 35%;
+  width: 25%;
 }
 
 footer {
@@ -224,7 +224,7 @@ footer {
 
 #btn-desplegar-contacto {
   margin-bottom: var(--espacio);
-  padding: 10px 25px;
+  padding: 15px 15px;
   cursor: pointer;
   align-self: flex-start; 
 }
