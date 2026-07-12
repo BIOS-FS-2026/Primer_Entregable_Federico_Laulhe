@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Teclado",
+    "precio": 80,
+    "categoria": "tecnologia",
+    "stock": 12
+  },
+  {
+    "nombre": "Mouse",
+    "precio": 40,
+    "categoria": "tecnologia",
+    "stock": 0
+  },
+  {
+    "nombre": "Monitor",
+    "precio": 300,
+    "categoria": "tecnologia",
+    "stock": 5
+  },
+  {
+    "nombre": "Cuaderno",
+    "precio": 8,
+    "categoria": "papeleria",
+    "stock": 50
+  },
+  {
+    "nombre": "Lapicera",
+    "precio": 3,
+    "categoria": "papeleria",
+    "stock": 100
+  },
+  {
+    "nombre": "Mochila",
+    "precio": 60,
+    "categoria": "accesorios",
+    "stock": 7
+  }
+]

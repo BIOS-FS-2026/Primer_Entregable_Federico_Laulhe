@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio / Primera Entrega</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="menu.js" defer></script>
+</head>
+
+<body>
+    
+  <header>
+    <a class="logo" href="sobre-mi">
+      Federico<span>Laulhé</span>
+    </a>
+    
+      <nav>
+        <ul class="nav-links">
+            <li><a href="#sobre-mi"><strong>Sobre mí</strong></a></li>
+            <li><a href="#proyectos"><strong>Proyectos</strong></a></li>
+            <li><a href="#contacto"><strong>Contacto</strong></a></li>
+        </ul>         
+      </nav>
+
+      <div class="acciones">
+        <button id="menu-btn" aria-label="Abrir menú">☰</button>
+      </div>
+    </header>
+    
+    <main>
+    <section id="sobre-mi" class="avatar">
+        <p>Hola, mi nombre es</p>
+        <h1>Federico Laulhé</h1>
+        <h2>Estudiante de desarrollo web Full Stack</h2>
+        <p>Aprendiendo a construir webs desde 0.</p>
+        <p>HTML</p> 
+        <p>CSS</p> 
+        <p>JavaScript</p> 
+
+        <div class="redes">
+          <a href="https://github.com/PerroNashe" target="_blank" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+              <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.53-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/>
+            </svg>
+          </a>   
+       </section>
+  
+    <section id="proyectos">
+       <p class="etiqueta">Portafolio</p> 
+        <h2>Mis Proyectos</h2>
+
+        <div class="proyecto">
+           <article class="tarjeta">
+            <img src="./Img/fizzbuzz.webp" alt="" loading="lazy">
+            <h3>Clásico ejercicio FizzBuzz</h3>
+           </article>
+
+           <article class="tarjeta">
+            <img src="./Img/1x4ho2qngv421.jpg" alt="" loading="lazy">
+            <h3>Funciones en JavaScript</h3>
+           </article> 
+           
+           <article class="tarjeta">
+            <img src="./Img/Numeros primos.webp" alt="" loading="lazy">
+            <h3>Herramienta para encontrar números primos hasta un limite deseado</h3>
+           </article> 
+          
+           <article class="tarjeta">
+            <img src="./Img/TiendaJs.webp" alt="" loading="lazy">
+            <h3>Tienda en JavaScript</h3>
+           </article> 
+    
+    
+      </section>
+    
+   <section id="contacto">
+         <p class="etiquieta">Contactame
+         </p>
+         <h2>Contacto</h2>
+
+         <button id="btn-desplegar-contacto" class="boton">Mostrar formulario de contacto</button>
+
+         <form id="form-contacto" class="formulario-oculto">
+           <label for="nombre" >Nombre</label>
+           <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+           
+           <label for="email" >Email</label>
+           <input type="text" id="email" name="email" placeholder="tu@email.com" required />
+           
+           <label for="mensaje" >Mensaje</label>
+           <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" ></textarea>
+           
+           
+           <button class="boton" type="submit">Enviar</button>
+           <span id="error-email"></span>   
+         </form>
+      </section>
+   </main>
+   <footer>
+      <p>© 2026 Federico Laulhé / Todos los derechos reservados</p>
+    <ul class="redes">
+    </ul>
+   </footer>
+ </body>
+</html>
