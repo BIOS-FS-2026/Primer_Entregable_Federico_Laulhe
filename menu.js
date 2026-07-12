@@ -15,7 +15,6 @@ btnDesplegar.addEventListener('click', () => {
   formularioContacto.classList.toggle('mostrar')
 })
 
-// --- VALIDACIÓN DEL FORMULARIO ---
 const form = document.querySelector('#form-contacto')
 const email = document.querySelector('#email')
 const errorEmail = document.querySelector('#error-email')
