@@ -160,11 +160,11 @@ nav {
   font-size: rem;
 }
 
-#proyectos {
+#proyecto {
   padding: var(--espacio);
 }
 
-#proyectos h2 {
+#proyecto h2 {
   margin-bottom: var(--espacio);
 }
 
@@ -177,7 +177,7 @@ nav {
 .tarjeta {
   width: 100%;
   background: white;
-  border: 1px solid #ddd;
+  border: 1px solid #141212;
   border-radius: 8px;
   padding: var(--espacio) 20px;
   margin-bottom: var(--espacio);
@@ -212,6 +212,16 @@ footer {
   align-items: center;
   gap: var(--espacio);
   padding: var(--espacio);
+}
+
+.boton {
+  background: var(--color-principal);
+  color: rgb;
+  border-color: #000000;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .formulario-oculto {
