@@ -1,6 +1,3 @@
-console.log('Estoy enlazando javascript con HTML')
-console.log('Accediendo al formulario')
-
 const menuBtn = document.querySelector('#menu-btn')
 const navLinks = document.querySelector('.nav-links')
 

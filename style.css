@@ -155,11 +155,6 @@ nav {
 }
 
 
-#sobre-mi h2 {
-  color: var(--color-texto);
-  font-size: rem;
-}
-
 #proyecto {
   padding: var(--espacio);
 }
@@ -216,7 +211,6 @@ footer {
 
 .boton {
   background: var(--color-principal);
-  color: rgb;
   border-color: #000000;
   border-radius: 8px;
   padding: 8px 28px;
