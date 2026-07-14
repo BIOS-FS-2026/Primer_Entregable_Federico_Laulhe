@@ -143,11 +143,11 @@ nav {
 }
 
 
-#proyecto {
+.proyecto {
   padding: var(--espacio);
 }
 
-#proyecto h2 {
+.proyecto h2 {
   margin-bottom: var(--espacio);
 }
 
